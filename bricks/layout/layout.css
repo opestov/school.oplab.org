@@ -1,0 +1,43 @@
+﻿.Layout__head {
+    margin-left: 2em;
+}
+
+.Layout__hr {
+    height: 1px;
+    width: 2em;
+    background-color: #7ac0da;
+    margin: 2em 0;
+}
+
+.Layout__body {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.Logo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+
+.Menu {
+}
+
+.Menu__item {
+    display: inline-block;
+    margin-right: 0.7em;
+}
+
+.Menu__link {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.Menu__link:hover {
+    border-bottom: 1px solid;
+}
+

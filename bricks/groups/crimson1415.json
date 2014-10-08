@@ -1,0 +1,62 @@
+{
+    "name": "Crimson",
+    "users": [
+        { "name": "Ашихмин Толя", "display": "tolya", "timus": 171739, "oplab": 843},
+        { "name": "Сырцев Саша", "display": "Alex", "timus": 171920, "oplab": 848},
+        { "name": "Клёпов Дима", "display": "31415", "timus": 172049, "oplab": 847},
+        { "name": "Шамов Стёпа", "display": "Stepan", "timus": 171925, "oplab": 855}
+    ],
+    "contests": [
+        {
+            "name": "Восемь задач с УРКОП-2013",
+            "problems": [
+                { "site": "timus", "num": 2000 },
+                { "site": "timus", "num": 2001 },
+                { "site": "timus", "num": 2002 },
+                { "site": "timus", "num": 2003 },
+                { "site": "timus", "num": 2005 },
+                { "site": "timus", "num": 2009 },
+                { "site": "timus", "num": 2010 },
+                { "site": "timus", "num": 2011 }
+            ]
+        },
+        {
+            "name": "Графы-1",
+            "problems": [
+                { "site": "timus", "num": 1837 },
+                { "site": "timus", "num": 1106 },
+                { "site": "timus", "num": 1272 },
+                { "site": "timus", "num": 1930 }
+            ]
+        },
+        {
+            "name": "Порождение комбинаторных объектов",
+            "problems": [
+                { "site": "oplab", "contest": 44, "problem": 1},
+                { "site": "oplab", "contest": 44, "problem": 2},
+                { "site": "oplab", "contest": 44, "problem": 3},
+                { "site": "oplab", "contest": 44, "problem": 4},
+                { "site": "oplab", "contest": 44, "problem": 5},
+                { "site": "oplab", "contest": 44, "problem": 6},
+                { "site": "oplab", "contest": 44, "problem": 7},
+                { "site": "oplab", "contest": 44, "problem": 8},
+                { "site": "oplab", "contest": 44, "problem": 9},
+                { "site": "oplab", "contest": 44, "problem": 10}
+            ]
+        },
+        {
+            "name": "Алгоритмы сортировки",
+            "problems": [
+                { "site": "oplab", "contest": 24, "problem": 1},
+                { "site": "oplab", "contest": 24, "problem": 2},
+                { "site": "oplab", "contest": 24, "problem": 3},
+                { "site": "oplab", "contest": 24, "problem": 4},
+                { "site": "oplab", "contest": 24, "problem": 5},
+                { "site": "oplab", "contest": 24, "problem": 6},
+                { "site": "oplab", "contest": 24, "problem": 7},
+                { "site": "oplab", "contest": 24, "problem": 8},
+                { "site": "oplab", "contest": 24, "problem": 9}
+            ]
+        }
+    ]
+}

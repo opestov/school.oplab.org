@@ -1,0 +1,24 @@
+#+HTML_DOCTYPE: html5
+#+OPTIONS: toc:nil num:nil html5-fancy:t
+#+MACRO: begin-block #+HTML: <div class="$1">
+#+MACRO: end-block #+HTML: </div>
+
+{{{begin-block(Olymp)}}}
+
+* Турниры, которые мы проводим или в которых принимаем участие
+
+** Командный турнир по программированию
+
++ [[./olymp/arhimed/2013.html][2013]]
+
+** Турнир Архимеда
+
++ [[./olymp/arhimed/2013.html][2013]]
+
+** Ёjik
+
++ [[./olymp/ejik/2014a.html][2014-осень]]
++ [[./olymp/ejik/2014s.html][2014-весна]]
++ [[./olymp/ejik/2013.html][2013]]
+
+{{{end-block}}}

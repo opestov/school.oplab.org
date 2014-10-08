@@ -1,0 +1,14 @@
+#+HTML_DOCTYPE: html5
+#+OPTIONS: toc:nil num:nil html5-fancy:t
+#+MACRO: begin-block #+HTML: <div class="$1">
+#+MACRO: end-block #+HTML: </div>
+
+{{{begin-block(Page)}}}
+
+* Учебные группы 2014/2015
+
+** [[./crimson1415.html][Группа «Crimson»]]
+
+* Учебные группы 2013/2014
+
+** [[./crimson1314.html][Группа «Crimson»]]

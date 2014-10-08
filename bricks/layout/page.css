@@ -1,0 +1,39 @@
+﻿.Page {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+.Page h2 {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    color: crimson;
+}
+
+.Page h3 {
+    font-size: 1.4em;
+}
+
+.Page a {
+    text-decoration: none;
+    color: #08c
+}
+
+.Page code {
+    padding-bottom: 2px;
+    border-bottom: 1px dashed #08c;
+}
+
+.Page td, .Page th {
+  border: 1px solid;
+  padding: 0.5em;
+}
+
+.Page .left {
+    text-align: left;
+}
+.Page .right {
+    text-align: right;
+}
+.Page .center {
+    text-align: center;
+}

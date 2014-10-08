@@ -1,0 +1,79 @@
+﻿<div class="Group">
+    <div class="Group__title">
+        Страница группы «{{ Group.Name }}»
+    </div>
+    <div class="Group__overall">
+        <div class="Group__overallHeading">
+            Суммарные результаты (обновлено {{ UpdateTime | Date:"dd MMMM yyyy, hh:mm"}})
+        </div>
+        <div class="Group__overallStandings">
+            <table class="Standings">
+                <tr>
+                    <th class="Standings__th" title="Место"></th>
+                    <th class="Standings__th">Участник</th>
+              
+                    {%- for item in Group.Contests -%}
+                    <th class="Standings__ref"><a class="Standings__link" href="#{{ forloop.index }}">{{ forloop.index }}</a></th>
+                    {%- endfor -%}
+
+                    <th class="Standings__th" title="Решено задач">Σ</th>
+                    <th class="Standings__th" title="Доля неверных попыток">―</th>
+                </tr>
+
+                {%- for item in OverallRating -%}
+                <tr>
+                    <td class="Standings__cell Standings__col--place">{{ item.Place }}</td>
+                    <td class="Standings__cell">{{ Group.Users[item.UserIndex].DisplayName }}</td>
+                    {%- assign uid = item.UserIndex -%}
+
+                    {%- for contest in Group.Contests -%}
+                    {%- assign j = forloop.index0 -%}
+                    {%- assign ac = Group.Overall.Results[uid].Contests[j] -%}
+                    {%- assign total = Group.Contests[j].Problems | Size -%}
+                    <td class="Standings__cell Standings__col--overallResults Standings__cell--{{ 'void' | Color:ac, total }}">{{ Group.Overall.Results[uid].Contests[j] }}</td>
+                    {%- endfor -%}
+
+                    {%- assign solved = Group.Overall.Results[uid].Solved -%}
+                    {%- assign rejected = Group.Overall.Results[uid].RejectedAttempts -%}
+                    <td class="Standings__cell Standings__col--info">{{ solved }}</td>
+                    <td class="Standings__cell Standings__col--info">{{ 'void' | Dirty:solved, rejected }}</td>
+                </tr>
+                {%- endfor -%}
+            </table>
+        </div>
+    </div>
+    {%- for contest in Group.Contests -%}
+    <div id="{{ forloop.index}}" class="Group__contest">
+        <div class="Contest">
+            <div class="Contest__heading">
+                {{ forloop.index }}. {{ contest.Name }}
+            </div>
+            <div class="Contest__standings">
+                <table class="Standings">
+                    <tr>
+                        <th class="Standings__th Standings__col--place"></th>
+                        <th class="Standings__th">Участник</th>
+                        {%- for problem in contest.Problems -%}
+                        <th class="Standings__ref"><a class="Standings__link" title="{{ problem.Description }}" href="{{ problem.Link }}">{{ forloop.index0 | Letter }}</a></th>
+                        {%- endfor -%}
+                        <th class="Standings__th Standings__col--info" title="Решено задач">Σ</th>
+                        <th class="Standings__th Standings__col--info" title="Неверные попытки">―</th>
+                    </tr>
+                    {%- for item in Ratings[forloop.index0] -%}
+                    <tr>
+                        <td class="Standings__cell Standings__col--place">{{ item.Place }}</td>
+                        <td class="Standings__cell">{{ Group.Users[item.UserIndex].DisplayName }}</td>
+                        {%- for problem in contest.Problems -%}
+                        {%- assign result = contest.Results[item.UserIndex].Problems[forloop.index0] -%}
+                        <td class="Standings__cell Standings__col--results {{ result | ResultClass }}">{{ result | StringResult }}</td>
+                        {%- endfor -%}
+                        <td class="Standings__cell Standings__col--info">{{ contest.Results[item.UserIndex].Solved }}</td>
+                        <td class="Standings__cell Standings__col--info">{{ contest.Results[item.UserIndex].RejectedAttempts }}</td>
+                    </tr>
+                    {%- endfor -%}
+                </table>
+            </div>
+        </div>
+    </div>
+   {%- endfor -%}
+</div>

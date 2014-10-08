@@ -1,0 +1,101 @@
+﻿.Group {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+.Group__title {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    color: crimson;
+}
+
+.Group__overall {
+    margin-top: 1em;
+}
+
+.Group__overallHeading {
+    font-size: 1.4em;
+}
+
+.Group__overallStandings {
+    margin-top: 1em;
+}
+
+.Group__contest {
+    margin-top: 1em;
+}
+
+.Contest__heading {
+    font-size: 1.4em;
+}
+
+.Contest__standings {
+    margin-top: 0.75em;
+}
+
+
+.Standings {
+}
+
+.Standings__cell {
+    border: 1px solid black;
+    padding: 0.3em 0.5em;
+}
+.Standings__th {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.Standings__ref {
+    border: 1px solid black;
+    text-align: center;
+}
+.Standings__link {
+    text-decoration: none;
+    color: #08c;    
+}
+
+.Standings__col--overallResults {
+    width: 3em;
+    text-align: center;
+}
+.Standings__col--results {
+    font-size: 0.8em;
+    width: 1em;
+    text-align: center;
+}
+
+.Standings__col--place {
+    text-align: center;
+}
+
+.Standings__col--info {
+    text-align: center;
+}              
+
+.Standings__cell--AC0 {
+    font-size: 1em;
+    color: #070;
+}
+
+.Standings__cell--AC {
+    color: #070;
+}
+
+.Standings__cell--RJ {
+    color: #b00;
+}
+
+
+.Standings__cell--0 { background-color: #a50026; }
+.Standings__cell--1 { background-color: #d73027; }
+.Standings__cell--2 { background-color: #f46d43; }
+.Standings__cell--3 { background-color: #fdae61; }
+.Standings__cell--4 { background-color: #fee08b; }
+.Standings__cell--5 { background-color: #ffffbf; }
+.Standings__cell--6 { background-color: #d9ef8b; }
+.Standings__cell--7 { background-color: #a6d96a; }
+.Standings__cell--8 { background-color: #66bd63; }
+.Standings__cell--9 { background-color: #1a9850; }
+.Standings__cell--10 { background-color:#006837; }
+
+/*  http://colorbrewer2.org/  */

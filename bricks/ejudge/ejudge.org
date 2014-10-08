@@ -1,0 +1,29 @@
+#+HTML_DOCTYPE: html5
+#+OPTIONS: toc:nil num:nil html5-fancy:t
+#+MACRO: begin-block #+HTML: <div class="$1">
+#+MACRO: end-block #+HTML: </div>
+
+{{{begin-block(Page)}}}
+
+* Список контестов с задачами для самостоятельного решения
+
+** Изучение языка программирования
+
+| Ввод/вывод, арифметические операции | [[http://ejudge.oplab.org/01-firststeps/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000003&locale_id%3D1][Вход]] |
+| Условный оператор ~if~              | [[http://ejudge.oplab.org/02-if/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000004&locale_id%3D1][Вход]] |
+| Циклы - 1                           | [[http://ejudge.oplab.org/03-loops/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000007&locale_id%3D1][Вход]] |
+| Циклы - 2                           | [[http://ejudge.oplab.org/04-loops/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000008&locale_id%3D1][Вход]] |
+| Вложенные циклы                     | [[http://ejudge.oplab.org/05-nested-loops/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000009&locale_id%3D1][Вход]] |
+| Одномерные массивы                  | [[http://ejudge.oplab.org/06-arrays-1d/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000010&locale_id%3D1][Вход]] |
+| Строки - 1                          | [[http://ejudge.oplab.org/08-strings/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000043&locale_id%3D1][Вход]] |
+| Алгоритмы сортировки                | [[http://ejudge.oplab.org/07-sorting/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000024&locale_id%3D1][Вход]] |
+| Порождение комбинаторных объектов   | [[http://ejudge.oplab.org/09-enumeration/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000044&locale_id%3D1][Вход]] |
+
+** Региональные этапы Всероссийской олимпиады по информатике
+
+| Региональный этап РОИ 2012/2013 | Условия: [[http://ejudge.oplab.org/regional/2013-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2013-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D32&amp%3Blocale_id%3D1][Вход]] |
+| Региональный этап РОИ 2011/2012 | Условия: [[http://ejudge.oplab.org/regional/2012-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2012-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D33&amp%3Blocale_id%3D1][Вход]] |
+| Региональный этап РОИ 2010/2011 | Условия: [[http://ejudge.oplab.org/regional/2011-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2011-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D34&amp%3Blocale_id%3D1][Вход]] |
+| Региональный этап РОИ 2009/2010 | Условия: [[http://ejudge.oplab.org/regional/2010-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2010-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D35&amp%3Blocale_id%3D1][Вход]] |
+
+{{{end-block}}}
