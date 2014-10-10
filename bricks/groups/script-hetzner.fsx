@@ -71,7 +71,7 @@ do
     let oplab = Main.Judge.CreateEjudge "oplab" (Path.Combine ("/home", "ejudge", "judges"))
     let timus = Main.Judge.CreateTimus ()
 
-    ["crimson1314"; "crimson1415"]
+    ["crimson1314"; "crimson1415"; "gainsboro1415"; "nur1415"]
     |> Seq.iter (fun n ->
         try
             let progress = Main.gather [oplab; timus] (Path.Combine(scriptDir, n + ".json"))  
