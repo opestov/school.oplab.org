@@ -26,7 +26,6 @@ let callGulp target =
 
 let buildOlymp () =
     CopyFile (iDir @@ "css/") "./bricks/olymp/olymp.css"
-
     CopyDir bDir "./bricks/olymp" (fun n -> n.EndsWith("7z") || n.EndsWith("pdf"))
 
     buildPage "турниры()" "./bricks/olymp/olymp.html" "olymp.html"
@@ -87,13 +86,7 @@ Target "ScheduledUpdate" (fun _ ->
 //    DeleteDir iDir
 )
 
-"Clean" ==> "CopyAssets" ==> "BuildStaticPages"
-//"SetupRazorEngine" ==> "BuildStaticPages"
-
-"BuildStaticPages" ==> "Default"
-"CopyAssets" ==> "Default"
-
-//"SetupRazorEngine" ==> "BuildDynamicPages"
+"Clean" ==> "BuildStaticPages" ==> "CopyAssets" ==> "Default"
 "BuildDynamicPages" ==> "ScheduledUpdate"
 
 // start build
