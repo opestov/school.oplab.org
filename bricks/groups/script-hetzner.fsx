@@ -29,7 +29,10 @@ module Filters =
     type A = A
 
     let Dirty (_ : obj) solved rejected =
-        100 * rejected  / (solved + rejected)
+        if solved + rejected = 0 then
+            0
+        else
+            100 * rejected  / (solved + rejected)
     let Color (_ : obj) ac total =
         10 * ac / total
     let Letter i =
