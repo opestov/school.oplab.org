@@ -1,10 +1,16 @@
 {
-    "name": "Crimson 2013/2014",
+    "name": "Новый Уренгой 2014/2015",
     "users": [
-        { "name": "Ашихмин Толя", "display": "tolya", "oplab": 843 },
-        { "name": "Сырцев Саша", "display": "Alex", "oplab": 848 },
-        { "name": "Клёпов Дима", "display": "31415", "oplab": 847 },
-        { "name": "Шамов Стёпа", "display": "Stepan", "oplab": 855 }
+        { "name": "m70", "display": "m70", "oplab": 698},
+        { "name": "m71", "display": "m71", "oplab": 699},
+        { "name": "m72", "display": "m72", "oplab": 700},
+        { "name": "m73", "display": "m73", "oplab": 701},
+        { "name": "m74", "display": "m74", "oplab": 702},
+        { "name": "m75", "display": "m75", "oplab": 703},
+        { "name": "m76", "display": "m76", "oplab": 704},
+        { "name": "m77", "display": "m77", "oplab": 705},
+        { "name": "m78", "display": "m78", "oplab": 706},
+        { "name": "m78", "display": "m79", "oplab": 707}
     ],
     "contests": [
         {
@@ -92,21 +98,6 @@
                 { "site": "oplab", "contest": 10, "problem": 8},
                 { "site": "oplab", "contest": 10, "problem": 9},
                 { "site": "oplab", "contest": 10, "problem": 10}
-            ]
-        },
-        {
-            "name": "Строки - 1",
-            "problems": [
-                { "site": "oplab", "contest": 43, "problem": 1},
-                { "site": "oplab", "contest": 43, "problem": 2},
-                { "site": "oplab", "contest": 43, "problem": 3},
-                { "site": "oplab", "contest": 43, "problem": 4},
-                { "site": "oplab", "contest": 43, "problem": 5},
-                { "site": "oplab", "contest": 43, "problem": 6},
-                { "site": "oplab", "contest": 43, "problem": 7},
-                { "site": "oplab", "contest": 43, "problem": 8},
-                { "site": "oplab", "contest": 43, "problem": 9},
-                { "site": "oplab", "contest": 43, "problem": 10}
             ]
         }
     ]

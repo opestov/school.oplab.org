@@ -7,8 +7,12 @@
 
 * Учебные группы 2014/2015
 
-** [[./crimson1415.html][Группа «Crimson»]]
+** [[./crimson1415.html][Crimson]]
+
+** [[./gainsboro1415.html][Gainsboro]]
+
+** [[./nur1415.html][Новый Уренгой]]
 
 * Учебные группы 2013/2014
 
-** [[./crimson1314.html][Группа «Crimson»]]
+** [[./crimson1314.html][Crimson]]

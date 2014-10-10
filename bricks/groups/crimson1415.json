@@ -1,5 +1,5 @@
 {
-    "name": "Crimson",
+    "name": "Crimson 2014/2015",
     "users": [
         { "name": "Ашихмин Толя", "display": "tolya", "timus": 171739, "oplab": 843},
         { "name": "Сырцев Саша", "display": "Alex", "timus": 171920, "oplab": 848},
@@ -23,6 +23,7 @@
         {
             "name": "Графы-1",
             "problems": [
+                { "site": "oplab", "contest": 49, "problem": 7, "desc": "Another Brick in the Wall", "link": "http://school.oplab.org/olymp/ejik/2014a-statements.pdf"},
                 { "site": "timus", "num": 1837 },
                 { "site": "timus", "num": 1106 },
                 { "site": "timus", "num": 1272 },

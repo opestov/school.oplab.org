@@ -25,7 +25,7 @@ let callGulp target =
     |> ignore
 
 let buildOlymp () =
-    CopyFile (iDir @@ "css/") "./bricks/olymp/olymp.css"
+    CopyFiles (iDir @@ "css/") (!! "./bricks/olymp/*.css")
     CopyDir bDir "./bricks/olymp" (fun n -> n.EndsWith("7z") || n.EndsWith("pdf"))
 
     buildPage "турниры()" "./bricks/olymp/olymp.html" "olymp.html"

@@ -1,10 +1,11 @@
 {
-    "name": "Crimson 2013/2014",
+    "name": "Gainsboro 2014/2015",
     "users": [
-        { "name": "Ашихмин Толя", "display": "tolya", "oplab": 843 },
-        { "name": "Сырцев Саша", "display": "Alex", "oplab": 848 },
-        { "name": "Клёпов Дима", "display": "31415", "oplab": 847 },
-        { "name": "Шамов Стёпа", "display": "Stepan", "oplab": 855 }
+        { "name": "Даниил", "display": "daniil", "oplab": 871},
+        { "name": "Пупышев Иван", "display": "vanya2059", "oplab": 872},
+        { "name": "Кирилл", "display": "HeXecutor", "oplab": 873},
+        { "name": "Никита", "display": "1488", "oplab": 874},
+        { "name": "Муравьёв Кирилл", "display": "kirill", "oplab": 875}
     ],
     "contests": [
         {
