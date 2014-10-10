@@ -7,6 +7,6 @@ mono .nuget/NuGet/nuget.exe install SourceLink.Fake -OutputDirectory packages -E
 mono .nuget/NuGet/nuget.exe install GroupProgress -OutputDirectory packages -ExcludeVersion 
 mono .nuget/NuGet/nuget.exe install DotLiquid -OutputDirectory packages
 
-npm init
+npm install
 
 mono --runtime=v4.0 packages/FAKE/tools/FAKE.exe build.fsx $@

@@ -13,7 +13,7 @@ if not exist packages\DotLiquid*  (
 )
 
 if not exist node_modules  (
-  npm init
+  call npm install
 )
 
 packages\FAKE\tools\FAKE.exe build.fsx %*
