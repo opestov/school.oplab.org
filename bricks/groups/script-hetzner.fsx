@@ -1,5 +1,8 @@
+#I "../../packages/FSharp.Data/lib/net40"
 #r "../../packages/FSharp.Data/lib/net40/FSharp.Data.dll"
+#I "../../packages/GroupProgress/lib/net40"
 #r "../../packages/GroupProgress/lib/net40/GroupProgress.dll"
+#I "../../packages/DotLiquid.1.8.0/lib/NET40"
 #r "../../packages/DotLiquid.1.8.0/lib/NET40/DotLiquid.dll"
 
 open System.IO
@@ -65,7 +68,7 @@ do
 
     let template = Template.Parse(File.ReadAllText(Path.Combine(scriptDir, "progress.liquid"), Encoding.UTF8))
 
-    let oplab = Main.Judge.CreateLocalEjudge "oplab" (Path.Combine (dynamicDir, "groups", "oplab"))
+    let oplab = Main.Judge.CreateEjudge "oplab" (Path.Combine ("/home", "ejudge", "judges"))
     let timus = Main.Judge.CreateTimus ()
 
     ["crimson1314"; "crimson1415"]
