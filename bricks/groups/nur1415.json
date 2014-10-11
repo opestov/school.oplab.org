@@ -10,7 +10,17 @@
         { "name": "m76", "display": "m76", "oplab": 704},
         { "name": "m77", "display": "m77", "oplab": 705},
         { "name": "m78", "display": "m78", "oplab": 706},
-        { "name": "m78", "display": "m79", "oplab": 707}
+        { "name": "m79", "display": "m79", "oplab": 707},
+        { "name": "m80", "display": "m80", "oplab": 708},
+        { "name": "m81", "display": "m81", "oplab": 709},
+        { "name": "m82", "display": "m82", "oplab": 710},
+        { "name": "m83", "display": "m83", "oplab": 711},
+        { "name": "m84", "display": "m84", "oplab": 712},
+        { "name": "m85", "display": "m85", "oplab": 713},
+        { "name": "m86", "display": "m86", "oplab": 714},
+        { "name": "m87", "display": "m87", "oplab": 715},
+        { "name": "m88", "display": "m88", "oplab": 716},
+        { "name": "m89", "display": "m89", "oplab": 717}
     ],
     "contests": [
         {
