@@ -4,7 +4,7 @@
     </div>
     <div class="Group__overall">
         <div class="Group__overallHeading">
-            Суммарные результаты (обновлено {{ UpdateTime | Date:"dd MMMM yyyy, hh:mm"}})
+            Суммарные результаты (обновлено {{ 'void' | MoscowTime | Date:"dd MMMM yyyy, HH:mm"}})
         </div>
         <div class="Group__overallStandings">
             <table class="Standings">
@@ -17,7 +17,7 @@
                     {%- endfor -%}
 
                     <th class="Standings__th" title="Решено задач">Σ</th>
-                    <th class="Standings__th" title="Доля неверных попыток">―</th>
+                    <th class="Standings__th" title="Доля неверных попыток">―%</th>
                 </tr>
 
                 {%- for item in OverallRating -%}
@@ -36,7 +36,7 @@
                     {%- assign solved = Group.Overall.Results[uid].Solved -%}
                     {%- assign rejected = Group.Overall.Results[uid].RejectedAttempts -%}
                     <td class="Standings__cell Standings__col--info">{{ solved }}</td>
-                    <td class="Standings__cell Standings__col--info">{{ 'void' | Dirty:solved, rejected }}</td>
+                    <td class="Standings__cell Standings__col--info">{{ 'void' | Dirty:solved, rejected }}%</td>
                 </tr>
                 {%- endfor -%}
             </table>

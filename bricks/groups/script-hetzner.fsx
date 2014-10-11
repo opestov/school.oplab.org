@@ -17,8 +17,7 @@ let dynamicDir = Path.Combine(scriptDir, "..", "..", "dynamic")
 type Standing = {
     Group : Main.Dtos.GroupProgress;
     OverallRating : Main.Dtos.StandingsEntry [];
-    Ratings : Main.Dtos.StandingsEntry [] [];
-    UpdateTime : System.DateTime}
+    Ratings : Main.Dtos.StandingsEntry [] []}
 
 let registerSafeType(t : System.Type) =
     let names = t.GetMembers() |> Array.map (fun m -> m.Name)
@@ -28,13 +27,14 @@ module Filters =
     // http://stackoverflow.com/questions/2916294/how-to-do-typeof-of-a-module-in-a-fsx-file
     type A = A
 
+    let MoscowTime (_ : obj) =
+        let utcNow = System.DateTime.UtcNow
+        let moscow = System.TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time")
+        System.TimeZoneInfo.ConvertTime(utcNow, moscow)
     let Dirty (_ : obj) solved rejected =
-        if solved + rejected = 0 then
-            0
-        else
-            100 * rejected  / (solved + rejected)
+        if solved + rejected = 0 then 0 else 100 * rejected  / (solved + rejected)
     let Color (_ : obj) ac total =
-        10 * ac / total
+        if total = 0 then 0 else 10 * ac / total
     let Letter i =
         char (int 'A' + i)
     let StringResult (i : System.Nullable<int>) =
@@ -74,15 +74,18 @@ do
     let oplab = Main.Judge.CreateEjudge "oplab" (Path.Combine ("/home", "ejudge", "judges"))
     let timus = Main.Judge.CreateTimus ()
 
+    let groupsDir = Path.Combine(dynamicDir, "groups")
+    Directory.CreateDirectory(groupsDir) |> ignore
+
     ["crimson1314"; "crimson1415"; "gainsboro1415"; "nur1415"]
     |> Seq.iter (fun n ->
         try
             let progress = Main.gather [oplab; timus] (Path.Combine(scriptDir, n + ".json"))  
             let overallRating = Main.sortOverallUsersByProblems progress.Users progress.Overall.Results
             let ratings = progress.Contests |> Array.map (fun c -> Main.sortContestUsersByProblems progress.Users c.Results)
-            let bag = Hash.FromAnonymousObject({Group = progress; OverallRating = overallRating; Ratings = ratings; UpdateTime = System.DateTime.Now})
+            let bag = Hash.FromAnonymousObject({Group = progress; OverallRating = overallRating; Ratings = ratings})
             let result = template.Render(bag)
-            File.WriteAllText(Path.Combine(dynamicDir, "groups", n + ".html"), result, Encoding.UTF8)
+            File.WriteAllText(Path.Combine(groupsDir, n + ".html"), result, Encoding.UTF8)
         with 
             e -> System.Console.WriteLine(e))
 
