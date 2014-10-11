@@ -27,10 +27,8 @@ module Filters =
     // http://stackoverflow.com/questions/2916294/how-to-do-typeof-of-a-module-in-a-fsx-file
     type A = A
 
-    let MoscowTime (_ : obj) =
-        let utcNow = System.DateTime.UtcNow
-        let moscow = System.TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time")
-        System.TimeZoneInfo.ConvertTime(utcNow, moscow)
+    let UtcNow (_ : obj) =
+        System.DateTime.UtcNow
     let Dirty (_ : obj) solved rejected =
         if solved + rejected = 0 then 0 else 100 * rejected  / (solved + rejected)
     let Color (_ : obj) ac total =
