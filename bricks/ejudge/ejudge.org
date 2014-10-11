@@ -26,4 +26,10 @@
 | Региональный этап РОИ 2010/2011 | Условия: [[http://ejudge.oplab.org/regional/2011-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2011-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D34&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2009/2010 | Условия: [[http://ejudge.oplab.org/regional/2010-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2010-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D35&amp%3Blocale_id%3D1][Вход]] |
 
+** Ёjik
+
+| Осень 2013 | Условия: [[http://school.oplab.org/olymp/ejik/2013-statements.pdf][pdf]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D28&amp%3Blocale_id%3D1][Вход]] |
+| Весна 2014 | Условия: [[http://school.oplab.org/olymp/ejik/2014s-statements.pdf][pdf]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D48&amp%3Blocale_id%3D1][Вход]] |
+| Осень 2014 | Условия: [[http://school.oplab.org/olymp/ejik/2014a-statements.pdf][pdf]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D49&amp%3Blocale_id%3D1][Вход]] |
+
 {{{end-block}}}
