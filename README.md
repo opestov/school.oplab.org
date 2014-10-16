@@ -5,10 +5,10 @@ Sources of the small static site.
 # Build the site
 
 * Install [Node.js](http://www.nodejs.org/) and [npm](https://www.npmjs.org/).
-* Mono: `./build.sh`
-* Windows: `build.cmd`
+* Mono: *./build.sh*
+* Windows: *build.cmd*
 
-To have dynamic pages install F# and then edit crontab:
+To have "dynamic" pages install F# and then edit crontab:
 
 ~~~
 00 23 * * * cd ~/school.main && /usr/local/bin/fsharpi bricks/group/script-hetzner.fsx && ./build.sh ScheduledUpdate
@@ -46,7 +46,7 @@ pages it means:
 + get liquid template
 + get html source
 + generate html page
-+ copy html page to the `intermediate` directory
++ copy html page to the *intermediate* directory
 
 The other steps are self-descriptive and can be found in [build.fsx](build.fsx).
 
@@ -58,7 +58,7 @@ I'm using [gulp](http://gulpjs.com/) to perform the following tasks:
 + Minify resulting css file
 + Minify html pages
 
-Gulp tasks take data from the `intermediate` directory and put results to the `build` directory.
+Gulp tasks take data from the *intermediate* directory and put results to the *build* directory.
 The gulp tasks are executed from FAKE script.
 
 ## Dynamic summary pages
@@ -68,9 +68,9 @@ Some pages on this site are updated periodically:
 + The corresponding [bricks/groups](bricks/groups) subdirectory contans all
   required scripts and configuration files.
 + Cron utility is used to run scripts. The script result is set of
-  html files in the `dynamic` directory.
+  html files in the *dynamic* directory.
 + FAKE script contains target that creates actual pages and copies
-  them to the `build` directory.
+  them to the *build* directory.
 
 I'm using F# script that utilizes GroupProgerss library to get
 statistics from various online judges and then generates html page
