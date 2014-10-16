@@ -14,13 +14,6 @@ To have "dynamic" pages install F# and then edit crontab:
 00 23 * * * cd ~/school.main && /usr/local/bin/fsharpi bricks/group/script-hetzner.fsx && ./build.sh ScheduledUpdate
 ~~~
 
-## Update static pages manually
-
-~~~
-git pull origin
-./build.sh
-~~~
-
 # Internals
 
 The short description of used technologies.
@@ -39,7 +32,7 @@ Mono with RazorEngine and I switched to the DotLiquid.
 
 ## FAKE script
 
-This [FAKE](https://fsharp.github.io/FAKE/) script contains all
+The [FAKE](https://fsharp.github.io/FAKE/) script contains all
 instructions required to create site from source parts. For the most
 pages it means:
 
