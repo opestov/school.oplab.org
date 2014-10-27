@@ -71,6 +71,7 @@ do
 
     let oplab = Main.Judge.CreateEjudge "oplab" (Path.Combine ("/home", "ejudge", "judges"))
     let timus = Main.Judge.CreateTimus ()
+    let mccme = Main.Judge.CreateMccme ()
 
     let groupsDir = Path.Combine(dynamicDir, "groups")
     Directory.CreateDirectory(groupsDir) |> ignore
@@ -78,7 +79,7 @@ do
     ["crimson1314"; "crimson1415"; "gainsboro1415"; "nur1415"; "noyabrsk1415"]
     |> Seq.iter (fun n ->
         try
-            let progress = Main.gather [oplab; timus] (Path.Combine(scriptDir, n + ".json"))  
+            let progress = Main.gather [oplab; timus; mccme] (Path.Combine(scriptDir, n + ".json"))  
             let overallRating = Main.sortOverallUsersByProblems progress.Users progress.Overall.Results
             let ratings = progress.Contests |> Array.map (fun c -> Main.sortContestUsersByProblems progress.Users c.Results)
             let bag = Hash.FromAnonymousObject({Group = progress; OverallRating = overallRating; Ratings = ratings})
