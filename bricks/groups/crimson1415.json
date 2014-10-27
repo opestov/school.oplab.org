@@ -8,6 +8,23 @@
     ],
     "contests": [
         {
+            "name": "УРКОП-2014",
+            "problems": [
+                { "site": "timus", "num": 2024, "desc": "Время приключений" },
+                { "site": "timus", "num": 2025, "desc": "Стенка на стенку" },
+                { "site": "timus", "num": 2026, "desc": "Декан и расписание" },
+                { "site": "timus", "num": 2027, "desc": "URCAPL, эпизод 1" },
+                { "site": "timus", "num": 2028, "desc": "URCAPL, эпизод 2" },
+                { "site": "timus", "num": 2029, "desc": "Ханойские башни наносят ответный удар" },
+                { "site": "timus", "num": 2030, "desc": "Защитная Бэкап-Система" },
+                { "site": "timus", "num": 2031, "desc": "Числа-перевёртыши" },
+                { "site": "timus", "num": 2032, "desc": "Теория заговора и ребрендинг" },
+                { "site": "timus", "num": 2033, "desc": "Девайсы" },
+                { "site": "timus", "num": 2034, "desc": "Корованы" },
+                { "site": "timus", "num": 2035, "desc": "Очередной пробный тур" }
+            ]
+        },
+        {
             "name": "Восемь задач с УРКОП-2013",
             "problems": [
                 { "site": "timus", "num": 2000, "desc": "Grand Theft Array V" },
