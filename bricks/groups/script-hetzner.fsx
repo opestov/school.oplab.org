@@ -75,7 +75,7 @@ do
     let groupsDir = Path.Combine(dynamicDir, "groups")
     Directory.CreateDirectory(groupsDir) |> ignore
 
-    ["crimson1314"; "crimson1415"; "gainsboro1415"; "nur1415"]
+    ["crimson1314"; "crimson1415"; "gainsboro1415"; "nur1415"; "noyabrsk1415"]
     |> Seq.iter (fun n ->
         try
             let progress = Main.gather [oplab; timus] (Path.Combine(scriptDir, n + ".json"))  
