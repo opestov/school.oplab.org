@@ -12,7 +12,7 @@
 ** [[./gainsboro1415.html][Gainsboro]]
 
 ** [[./nur1415.html][Новый Уренгой]]
-
+** [[./noyabrsk1415.html][Ноябрьск]]
 * Учебные группы 2013/2014
 
 ** [[./crimson1314.html][Crimson]]
