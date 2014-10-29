@@ -17,16 +17,6 @@
     ],
     "contests": [
         {
-            "name": "Списки, очереди, стеки",
-            "problems": [
-                { "site": "mccme", "problem": 49, "desc": "Списки по классам" },
-                { "site": "mccme", "problem": 50, "desc": "Игра в пьяницу" },
-                { "site": "mccme", "problem": 51, "desc": "Правильная скобочная последовательность" },
-                { "site": "mccme", "problem": 52, "desc": "Постфиксная запись" },
-                { "site": "mccme", "problem": 3569, "desc": "Хорошие дни" }
-            ]
-        },
-        {
             "name": "Двоичный поиск и сортировка",
             "problems": [
                 { "site": "mccme", "problem": 4, "desc": "Двоичный поиск" },
@@ -37,6 +27,16 @@
                 { "site": "mccme", "problem": 3721, "desc": "Кассы" },
                 { "site": "mccme", "problem": 1620, "desc": "Субботник" },
                 { "site": "mccme", "problem": 3356, "desc": "Минимальное покрытие" }
+            ]
+        },
+        {
+            "name": "Списки, очереди, стеки",
+            "problems": [
+                { "site": "mccme", "problem": 49, "desc": "Списки по классам" },
+                { "site": "mccme", "problem": 50, "desc": "Игра в пьяницу" },
+                { "site": "mccme", "problem": 51, "desc": "Правильная скобочная последовательность" },
+                { "site": "mccme", "problem": 52, "desc": "Постфиксная запись" },
+                { "site": "mccme", "problem": 3569, "desc": "Хорошие дни" }
             ]
         }
     ]
