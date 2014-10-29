@@ -25,6 +25,19 @@
                 { "site": "mccme", "problem": 52, "desc": "Постфиксная запись" },
                 { "site": "mccme", "problem": 3569, "desc": "Хорошие дни" }
             ]
+        },
+        {
+            "name": "Двоичный поиск и сортировка",
+            "problems": [
+                { "site": "mccme", "problem": 4, "desc": "Двоичный поиск" },
+                { "site": "mccme", "problem": 111404, "desc": "Мутанты" },
+                { "site": "mccme", "problem": 1446, "desc": "Результаты олимпиады" },
+                { "site": "mccme", "problem": 1418, "desc": "Разные" },
+                { "site": "mccme", "problem": 111162, "desc": "Такси" },
+                { "site": "mccme", "problem": 3721, "desc": "Кассы" },
+                { "site": "mccme", "problem": 1620, "desc": "Субботник" },
+                { "site": "mccme", "problem": 3356, "desc": "Минимальное покрытие" }
+            ]
         }
     ]
 }
