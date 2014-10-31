@@ -32,10 +32,10 @@
                 { "site": "mccme", "problem": 619, "desc": "Маршрут" },
                 { "site": "mccme", "problem": 648, "desc": "Сообщение" },
                 { "site": "mccme", "problem": 2962, "desc": "Ход конём - 2" },
-                { "site": "mccme", "problem": 3001, "desc": "Пилообразные последовательности" },
                 { "site": "mccme", "problem": 211, "desc": "Лесенки" },
                 { "site": "mccme", "problem": 3005, "desc": "Количество правильных скобочных последовательностей" },
-                { "site": "mccme", "problem": 208, "desc": "Восстановление скобок" }
+                { "site": "mccme", "problem": 208, "desc": "Восстановление скобок" },
+                { "site": "mccme", "problem": 3001, "desc": "Пилообразные последовательности" }
             ]
         },
         {
