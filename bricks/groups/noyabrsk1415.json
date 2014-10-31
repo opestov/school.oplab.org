@@ -17,6 +17,15 @@
     ],
     "contests": [
         {
+            "name": "ДП - 2",
+            "problems": [
+                { "site": "mccme", "problem": 1791, "desc": "Расстояние по Левенштейну" },
+                { "site": "mccme", "problem": 1141, "desc": "Нечестная игра" },
+                { "site": "mccme", "problem": 515, "desc": "Словарь" },
+                { "site": "mccme", "problem": 1229, "desc": "Кафе" }
+            ]
+        },
+        {
             "name": "ДП - 1",
             "problems": [
                 { "site": "mccme", "problem": 206, "desc": "Биномиальные коэффициенты" },
