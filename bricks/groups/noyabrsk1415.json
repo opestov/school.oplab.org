@@ -24,7 +24,7 @@
                 { "site": "mccme", "problem": 90, "desc": "Разбиение на невозрастающие слагаемые, обратный порядок" },
                 { "site": "mccme", "problem": 111722, "desc": "Задача о рюкзаке" },
                 { "site": "mccme", "problem": 612, "desc": "Выражение" },
-                { "site": "mccme", "problem": 3721, "636": "Скобки(2)" }
+                { "site": "mccme", "problem": 3721, "desc": "Скобки(2)" }
             ]
         },
         {
