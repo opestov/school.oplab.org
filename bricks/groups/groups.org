@@ -13,6 +13,8 @@
 
 ** [[./nur1415.html][Новый Уренгой]]
 ** [[./noyabrsk1415.html][Ноябрьск]]
+** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D50&locale_id%3D1][Ноябрьск. Личная олимпиада.]]
+
 * Учебные группы 2013/2014
 
 ** [[./crimson1314.html][Crimson]]
