@@ -16,6 +16,17 @@
         { "name": "Гайворонский Евгений", "display": "Гайворонский Евгений", "mccme": 89436}
     ],
     "contests": [
+         {
+            "name": "Представление графов, обход в ширину",
+            "problems": [
+                { "site": "mccme", "problem": 471, "desc": "Степени вершин по спискам ребер" },
+                { "site": "mccme", "problem": 478, "desc": "Турнир" },
+                { "site": "mccme", "problem": 1748, "desc": "Задача из ЕГЭ" },
+                { "site": "mccme", "problem": 111540, "desc": "Компоненты связности" },
+                { "site": "mccme", "problem": 658, "desc": "Грядки" },
+                { "site": "mccme", "problem": 1939, "desc": "Эвакуация" }
+            ]
+        },
         {
             "name": "Рекурсия, перебор",
             "problems": [
