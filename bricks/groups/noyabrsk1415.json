@@ -16,7 +16,18 @@
         { "name": "Гайворонский Евгений", "display": "Гайворонский Евгений", "mccme": 89436}
     ],
     "contests": [
-         {
+        {
+            "name": "Обход в глубину, алгоритм Флойда",
+            "problems": [
+                { "site": "mccme", "problem": 165, "desc": "Банкет" },
+                { "site": "mccme", "problem": 1928, "desc": "Производство деталей" },
+                { "site": "mccme", "problem": 166, "desc": "Построение" },
+                { "site": "mccme", "problem": 111688, "desc": "Предок" },
+                { "site": "mccme", "problem": 1335, "desc": "Столовая" },
+                { "site": "mccme", "problem": 6, "desc": "Дейкстра: восстановление пути" }
+            ]
+        },
+        {
             "name": "Представление графов, обход в ширину",
             "problems": [
                 { "site": "mccme", "problem": 471, "desc": "Степени вершин по спискам ребер" },
