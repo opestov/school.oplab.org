@@ -17,6 +17,16 @@
     ],
     "contests": [
         {
+            "name": "Геометрия",
+            "problems": [
+                { "site": "mccme", "problem": 448, "desc": "Угол между векторами" },
+                { "site": "mccme", "problem": 269, "desc": "Площадь треугольника" },
+                { "site": "mccme", "problem": 446, "desc": "Площадь многоугольника" },
+                { "site": "mccme", "problem": 280, "desc": "Пересечение отрезков" },
+                { "site": "mccme", "problem": 444, "desc": "Описанная окружность" }
+            ]
+        },
+        {
             "name": "Обход в глубину, алгоритм Флойда",
             "problems": [
                 { "site": "mccme", "problem": 165, "desc": "Банкет" },
