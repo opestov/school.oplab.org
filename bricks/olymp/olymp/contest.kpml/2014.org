@@ -1,0 +1,14 @@
+#+HTML_DOCTYPE: html5
+#+OPTIONS: toc:nil num:nil ^:{} html5-fancy:t
+#+MACRO: begin-block #+HTML: <div class="$1">
+#+MACRO: end-block #+HTML: </div>
+
+{{{begin-block(Page)}}}
+
+* Открытая олимпиада КФМЛ «Командный турнир по программированию»
+
+** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D51&locale_id%3D1][Пробный тур]]
+
+** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D52&locale_id%3D1][Основной тур]]
+
+{{{end-block}}}

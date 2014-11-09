@@ -41,7 +41,7 @@ let buildOlymp () =
 
     CreateDir (iDir @@ "olymp" @@ "contest.kpml")
     buildPage "contest.kpml.ru(2013)" "./bricks/olymp/olymp/contest.kpml/2013.html" "olymp/contest.kpml/2013.html"
-
+    buildPage "contest.kpml.ru(2014)" "./bricks/olymp/olymp/contest.kpml/2014.html" "olymp/contest.kpml/2014.html"
 
 Target "BuildStaticPages" (fun _ ->
     buildPage "главная()" "./bricks/index/index.html" "index.html"
