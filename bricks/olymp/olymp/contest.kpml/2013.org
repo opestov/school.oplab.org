@@ -51,3 +51,5 @@
 
 + [[http://neerc.ifmo.ru/school/archive/2013-2014.html#spb-team][Материалы авторов задач]]
 + [[./2013-runs.7z][Архив подходов участников]]
+
+{{{end-block}}}
