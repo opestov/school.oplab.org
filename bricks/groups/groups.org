@@ -13,11 +13,6 @@
 
 ** [[./nur1415.html][Новый Уренгой]]
 ** [[./noyabrsk1415.html][Ноябрьск]]
-** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D57&locale_id%3D1][Ноябрьск. Муниципальный этап, пробный тур.]]
-** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D55&locale_id%3D1][Ноябрьск. Муниципальный этап, VII-VIII классы.]]
-
-** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D56&locale_id%3D1][Ноябрьск. Муниципальный этап, IX-XI классы.]]
-   
 
 * Учебные группы 2013/2014
 
