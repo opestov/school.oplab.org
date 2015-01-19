@@ -47,6 +47,7 @@ Target "BuildStaticPages" (fun _ ->
     buildPage "главная()" "./bricks/index/index.html" "index.html"
     buildPage "задачи()" "./bricks/ejudge/ejudge.html" "ejudge.html"
     buildPage "фмл()" "./bricks/courses/kpml.html" "kpml.html"
+    buildPage "рои(2014-2015)" "./bricks/roi/roi.html" "roi.html"
     buildOlymp ()
 
     CopyFile (iDir @@ "css/") "./bricks/groups/progress.css"
