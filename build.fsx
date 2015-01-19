@@ -70,7 +70,7 @@ Target "BuildDynamicPages" (fun _ ->
     buildPage "группа(gainsboro, 1415)" "./dynamic/groups/gainsboro1415.html" "gainsboro1415.html"
     buildPage "группа('Новый Уренгой', 1415)" "./dynamic/groups/nur1415.html" "nur1415.html"
     buildPage "группа(Ноябрьск)" "./dynamic/groups/noyabrsk1415.html" "noyabrsk1415.html"
-    buildPage "группа(Зимняя школа 2015, A)" "./dynamic/groups/yamal1415.html" "yamal1415.html"
+    buildPage "группа(Зимняя школа 2015, A)" "./dynamic/groups/yamal15.html" "yamal15.html"
 )
 
 Target "Clean" (fun _ ->
