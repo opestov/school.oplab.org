@@ -34,6 +34,16 @@
                 { "site": "mccme", "problem": 1925, "desc": "Кольцевая автодорога" },
                 { "site": "mccme", "problem": 3209, "desc": "Дом у дороги" }
             ]
+        },
+        {
+            "name": "Стандартные структуры данных",
+            "problems": [
+                { "site": "mccme", "problem": 3753, "desc": "Кубики" },
+                { "site": "mccme", "problem": 3757, "desc": "Полиглоты" },
+                { "site": "mccme", "problem": 3764, "desc": "Частотный анализ" },
+                { "site": "mccme", "problem": 3769, "desc": "Продажи (D)" }
+            ]
         }
+
     ]
 }
