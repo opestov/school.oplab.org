@@ -7,7 +7,8 @@
         { "name": "Поляков Дмитрий (Новый Уренгой, 8)", "display": "Поляков Дмитрий (Новый Уренгой, 8)", "mccme": 97251},
         { "name": "Буянкин Кирилл (Надым, 9)", "display": "Буянкин Кирилл (Надым, 9)", "mccme": 14231},
         { "name": "Кудратова Хадижат (Надым, 9)", "display": "Кудратова Хадижат (Надым, 9)", "mccme": 14230},
-        { "name": "Мурашов Борис (Новый Уренгой, 9)", "display": "Мурашов Борис (Новый Уренгой, 9)", "mccme": 85962}
+        { "name": "Мурашов Борис (Новый Уренгой, 9)", "display": "Мурашов Борис (Новый Уренгой, 9)", "mccme": 85962},
+        { "name": "Балакин Антон (Ноябрьск, 9)", "display": "Балакин Антон (Ноябрьск, 9)", "mccme": 94597}
     ],
     "contests": [
         {
@@ -34,6 +35,15 @@
                 { "site": "mccme", "problem": 3757, "desc": "Полиглоты" },
                 { "site": "mccme", "problem": 3764, "desc": "Частотный анализ" },
                 { "site": "mccme", "problem": 3769, "desc": "Продажи (D)" }
+            ]
+        },
+        {
+            "name": "Пробный тур",
+            "problems": [
+                { "site": "oplab", "contest": 60, "problem": 1, "desc": "W", "link": "http://school.oplab.org/region_training.pdf"},
+                { "site": "oplab", "contest": 60, "problem": 2, "desc": "X", "link": "http://school.oplab.org/region_training.pdf"},
+                { "site": "oplab", "contest": 60, "problem": 3, "desc": "Y", "link": "http://school.oplab.org/region_training.pdf"},
+                { "site": "oplab", "contest": 60, "problem": 4, "desc": "Z", "link": "http://school.oplab.org/region_training.pdf"}
             ]
         }
     ]
