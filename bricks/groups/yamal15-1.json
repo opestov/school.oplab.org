@@ -9,7 +9,6 @@
         { "name": "Кудратова Хадижат (Надым, 9)", "display": "Кудратова Хадижат (Надым, 9)", "mccme": 14230, "oplab": 130},
         { "name": "Мурашов Борис (Новый Уренгой, 9)", "display": "Мурашов Борис (Новый Уренгой, 9)", "mccme": 85962, "oplab": 111},
         { "name": "Балакин Антон (Ноябрьск, 9)", "display": "Балакин Антон (Ноябрьск, 9)", "mccme": 94597, "oplab": 135},
-        { "name": "Мухаметов Руслан (Лабытнанги, 11)", "display": "Мухаметов Руслан (Лабытнанги, 11)", "mccme": 105057, "oplab": 102},
         { "name": "Молендор Виктор (Надым, 7)", "display": "Молендор Виктор (Надым, 7)", "mccme": 86528, "oplab": 129},
         { "name": "Смирнова Мария (Ноябрьск, 8)", "display": "Смирнова Мария (Ноябрьск, 8)", "mccme": 104815, "oplab": 121},
         { "name": "Кохнюк Артем (Салехард, 9)", "display": "Кохнюк Артем (Салехард, 9)", "mccme": 6467, "oplab": 113},
@@ -44,6 +43,13 @@
                 { "site": "oplab", "contest": 63, "problem": 8 , "link": "http://ejudge.oplab.org/06-arrays-1d/statements.html", "desc": "Проверка на пересечение" },
                 { "site": "oplab", "contest": 63, "problem": 9 , "link": "http://ejudge.oplab.org/06-arrays-1d/statements.html", "desc": "Последовательность" },
                 { "site": "oplab", "contest": 63, "problem": 10, "link": "http://ejudge.oplab.org/06-arrays-1d/statements.html", "desc": "Чемпионат по стрельбе (региональный этап РОИ 10/11)" }
+            ]
+        },
+        {
+            "name": "Задачи с линейным решением",
+            "problems": [
+                { "site": "mccme", "problem": 2827, "desc": "Стильная одежда" },
+                { "site": "mccme", "problem": 756, "desc": "Минимум на отрезке" }
             ]
         },
         {
