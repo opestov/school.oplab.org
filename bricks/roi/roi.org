@@ -7,7 +7,9 @@
 
 * ЯНАО, региональный этап РОИ 2014/2015
 
-| Первый тур. Дорешивание |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000066&locale_id%3D1][Вход]] |
+[[tour1-passwords.pdf][Пароли]]
+
+| Первый тур. Дорешивание | [[./tour1.doc][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000066&locale_id%3D1][Вход]] |
 | **Первый тур**          |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000064&locale_id%3D1][Вход]] |
 | Пробный тур             | [[./region_training.pdf][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000060&locale_id%3D1][Вход]] |
 | Командная олимпиада     |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000061&locale_id%3D1][Вход]] |
