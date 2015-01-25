@@ -7,7 +7,7 @@
 
 * ЯНАО, региональный этап РОИ 2014/2015
 
-[[tour1-passwords.pdf][Пароли]]
+[[./tour1-passwords.pdf][Пароли]]
 
 | Первый тур. Дорешивание | [[./tour1.doc][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000066&locale_id%3D1][Вход]] |
 | **Первый тур**          |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000064&locale_id%3D1][Вход]] |

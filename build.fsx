@@ -48,7 +48,7 @@ Target "BuildStaticPages" (fun _ ->
     buildPage "задачи()" "./bricks/ejudge/ejudge.html" "ejudge.html"
     buildPage "фмл()" "./bricks/courses/kpml.html" "kpml.html"
 
-    CopyDir bDir "./bricks/roi" (fun n -> n.EndsWith("7z") || n.EndsWith("pdf"))
+    CopyDir bDir "./bricks/roi" (fun n -> n.EndsWith("7z") || n.EndsWith("pdf") || n.EndsWith("doc"))
     buildPage "рои(2014-2015)" "./bricks/roi/roi.html" "roi.html"
     buildOlymp ()
 
