@@ -7,8 +7,6 @@
 
 * ЯНАО, региональный этап РОИ 2014/2015
 
-[[./tour2-passwords.pdf][Пароли]]
-
 
 | **Второй тур**          |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000067&locale_id%3D1][Вход]] |
 | **Первый тур**          |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000064&locale_id%3D1][Вход]] |
@@ -17,6 +15,7 @@
 | Командная олимпиада     |         | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000061&locale_id%3D1][Вход]] |
 | Вложенные циклы         | [[http://ejudge.oplab.org/05-nested-loops/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D0000062&locale_id%3D1][Вход]] |
 | Одномерные массивы      | [[http://ejudge.oplab.org/06-arrays-1d/statements.html][Условия]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D000063&locale_id%3D1][Вход]] |
+
 
 ** Изменения в процедуре проверки
 
