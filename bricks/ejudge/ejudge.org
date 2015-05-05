@@ -21,11 +21,13 @@
 
 ** Региональные этапы Всероссийской олимпиады по информатике
 
+| Региональный этап РОИ 2014/2015 | Условия: [[http://ejudge.oplab.org/regional/2015-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2015-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D76&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2013/2014 | Условия: [[http://ejudge.oplab.org/regional/2014-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2014-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D58&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2012/2013 | Условия: [[http://ejudge.oplab.org/regional/2013-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2013-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D32&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2011/2012 | Условия: [[http://ejudge.oplab.org/regional/2012-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2012-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D33&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2010/2011 | Условия: [[http://ejudge.oplab.org/regional/2011-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2011-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D34&amp%3Blocale_id%3D1][Вход]] |
 | Региональный этап РОИ 2009/2010 | Условия: [[http://ejudge.oplab.org/regional/2010-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2010-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D35&amp%3Blocale_id%3D1][Вход]] |
+| Региональный этап РОИ 2008/2009 | Условия: [[http://ejudge.oplab.org/regional/2009-day1.doc][день 1]] [[http://ejudge.oplab.org/regional/2009-day2.doc][день 2]] | [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D36&amp%3Blocale_id%3D1][Вход]] |
 
 ** Ёjik
 
