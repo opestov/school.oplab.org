@@ -11,8 +11,6 @@
 
 * Учебные группы 2014/2015
 
-** [[./crimson1415.html][Crimson]]
-
 ** [[./gainsboro1415.html][Gainsboro]]
 
 ** [[./nur1415.html][Новый Уренгой]]
