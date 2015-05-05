@@ -18,6 +18,7 @@
 
 ** Ёjik
 
++ [[./olymp/ejik/2015s.html][2015-весна]]
 + [[./olymp/ejik/2014a.html][2014-осень]]
 + [[./olymp/ejik/2014s.html][2014-весна]]
 + [[./olymp/ejik/2013.html][2013]]
