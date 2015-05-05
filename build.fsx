@@ -66,6 +66,7 @@ Target "GulpDefault" (fun _ ->
 )
 
 Target "BuildDynamicPages" (fun _ ->
+    buildPage "группа(crimson, региональный этап)" "./dynamic/groups/crimson-reg.html" "crimson-reg.html"
     buildPage "группа(crimson, 1314)" "./dynamic/groups/crimson1314.html" "crimson1314.html"
     buildPage "группа(crimson, 1415)" "./dynamic/groups/crimson1415.html" "crimson1415.html"
     buildPage "группа(gainsboro, 1415)" "./dynamic/groups/gainsboro1415.html" "gainsboro1415.html"
