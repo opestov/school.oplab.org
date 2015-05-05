@@ -15,16 +15,55 @@
     ],
     "contests": [
         {
-            "name": "Региональный этап РОИ 2009/2010",
+            "name": "Региональный этап РОИ 2013/2014",
             "problems": [
-                { "site": "oplab", "contest": 35, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2010-day1.doc", "desc": "Соревнование картингистов" },
-                { "site": "oplab", "contest": 35, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2010-day1.doc", "desc": "Дипломы" },
-                { "site": "oplab", "contest": 35, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2010-day1.doc", "desc": "Булева функция" },
-                { "site": "oplab", "contest": 35, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2010-day1.doc", "desc": "Кольцевая автодорога" },
-                { "site": "oplab", "contest": 35, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Миша и негатив" },
-                { "site": "oplab", "contest": 35, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Треугольник Максима" },
-                { "site": "oplab", "contest": 35, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Производство деталей" },
-                { "site": "oplab", "contest": 35, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Новое слово в рекламе" }
+                { "site": "oplab", "contest": 58, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2014-day1.doc", "desc": "POBEDA-2014" },
+                { "site": "oplab", "contest": 58, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2014-day1.doc", "desc": "Список школ" },
+                { "site": "oplab", "contest": 58, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2014-day1.doc", "desc": "Межрегиональная олимпиада" },
+                { "site": "oplab", "contest": 58, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2014-day1.doc", "desc": "Дом Мэра" },
+                { "site": "oplab", "contest": 58, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2014-day2.doc", "desc": "Светофоры" },
+                { "site": "oplab", "contest": 58, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2014-day2.doc", "desc": "Кондиционеры" },
+                { "site": "oplab", "contest": 58, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2014-day2.doc", "desc": "Конфеты" },
+                { "site": "oplab", "contest": 58, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2014-day2.doc", "desc": "Волонтеры" }
+            ]
+        },
+        {
+            "name": "Региональный этап РОИ 2012/2013",
+            "problems": [
+                { "site": "oplab", "contest": 32, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2013-day1.doc", "desc": "Кастинг" },
+                { "site": "oplab", "contest": 32, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2013-day1.doc", "desc": "Города" },
+                { "site": "oplab", "contest": 32, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2013-day1.doc", "desc": "A+B=C" },
+                { "site": "oplab", "contest": 32, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2013-day1.doc", "desc": "Берёзовая аллея" },
+                { "site": "oplab", "contest": 32, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2013-day2.doc", "desc": "Игральные кубики" },
+                { "site": "oplab", "contest": 32, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2013-day2.doc", "desc": "Имена" },
+                { "site": "oplab", "contest": 32, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2013-day2.doc", "desc": "Две окружности" },
+                { "site": "oplab", "contest": 32, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2013-day2.doc", "desc": "Столицы" }
+            ]
+        },
+        {
+            "name": "Региональный этап РОИ 2011/2012",
+            "problems": [
+                { "site": "oplab", "contest": 33, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2012-day1.doc", "desc": "Цапли" },
+                { "site": "oplab", "contest": 33, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2012-day1.doc", "desc": "Круглый стол" },
+                { "site": "oplab", "contest": 33, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2012-day1.doc", "desc": "Повреждённый XML" },
+                { "site": "oplab", "contest": 33, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2012-day1.doc", "desc": "Игра с числами" },
+                { "site": "oplab", "contest": 33, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2012-day2.doc", "desc": "Кондиционер" },
+                { "site": "oplab", "contest": 33, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2012-day2.doc", "desc": "Праздничный ужин" },
+                { "site": "oplab", "contest": 33, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2012-day2.doc", "desc": "Космический кегельбан" },
+                { "site": "oplab", "contest": 33, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2012-day2.doc", "desc": "Abracadabra" }
+            ]
+        },
+        {
+            "name": "Региональный этап РОИ 2010/2011",
+            "problems": [
+                { "site": "oplab", "contest": 34, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2011-day1.doc", "desc": "Ролевая игра" },
+                { "site": "oplab", "contest": 34, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2011-day1.doc", "desc": "Колесо Фортуны" },
+                { "site": "oplab", "contest": 34, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2011-day1.doc", "desc": "Форматирование текста" },
+                { "site": "oplab", "contest": 34, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2011-day1.doc", "desc": "Космические исследования" },
+                { "site": "oplab", "contest": 34, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2011-day2.doc", "desc": "Шахматная доска" },
+                { "site": "oplab", "contest": 34, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2011-day2.doc", "desc": "Чемпионат по стрельбе" },
+                { "site": "oplab", "contest": 34, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2011-day2.doc", "desc": "Делители" },
+                { "site": "oplab", "contest": 34, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2011-day2.doc", "desc": "Дом у дороги" }
             ]
         },
         {
@@ -38,6 +77,19 @@
                 { "site": "oplab", "contest": 35, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Треугольник Максима" },
                 { "site": "oplab", "contest": 35, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Производство деталей" },
                 { "site": "oplab", "contest": 35, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2010-day2.doc", "desc": "Новое слово в рекламе" }
+            ]
+        },
+        {
+            "name": "Региональный этап РОИ 2008/2009",
+            "problems": [
+                { "site": "oplab", "contest": 36, "problem": 1,  "link": "http://ejudge.oplab.org/regional/2009-day1.doc", "desc": "Черно-белая графика" },
+                { "site": "oplab", "contest": 36, "problem": 2,  "link": "http://ejudge.oplab.org/regional/2009-day1.doc", "desc": "Газон" },
+                { "site": "oplab", "contest": 36, "problem": 3,  "link": "http://ejudge.oplab.org/regional/2009-day1.doc", "desc": "Трамвай" },
+                { "site": "oplab", "contest": 36, "problem": 4,  "link": "http://ejudge.oplab.org/regional/2009-day1.doc", "desc": "Треугольники" },
+                { "site": "oplab", "contest": 36, "problem": 5,  "link": "http://ejudge.oplab.org/regional/2009-day2.doc", "desc": "Клавиатура" },
+                { "site": "oplab", "contest": 36, "problem": 6,  "link": "http://ejudge.oplab.org/regional/2009-day2.doc", "desc": "Неправильное сложение" },
+                { "site": "oplab", "contest": 36, "problem": 7,  "link": "http://ejudge.oplab.org/regional/2009-day2.doc", "desc": "Числа" },
+                { "site": "oplab", "contest": 36, "problem": 8,  "link": "http://ejudge.oplab.org/regional/2009-day2.doc", "desc": "Перестановки" }
             ]
         }
     ]
