@@ -35,6 +35,7 @@ let buildOlymp () =
     buildPage "ёjik(2013)" "./bricks/olymp/olymp/ejik/2013.html" "olymp/ejik/2013.html"
     buildPage "ёjik(2014-весна)" "./bricks/olymp/olymp/ejik/2014s.html" "olymp/ejik/2014s.html"
     buildPage "ёjik(2014-осень)" "./bricks/olymp/olymp/ejik/2014a.html" "olymp/ejik/2014a.html"
+    buildPage "ёjik(2015-весна)" "./bricks/olymp/olymp/ejik/2015s.html" "olymp/ejik/2015s.html"    
 
     CreateDir (iDir @@ "olymp" @@ "arhimed")
     buildPage "архимед(2013)" "./bricks/olymp/olymp/arhimed/2013.html" "olymp/arhimed/2013.html"
