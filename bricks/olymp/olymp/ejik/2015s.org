@@ -28,6 +28,9 @@ Java, Pascal, Python.
 + [[./2014a.html][Осень 2014 года]]
 
 ** [[http://ejudge.oplab.org/cgi-bin/new-client?contest_id%3D77&locale_id%3D1][Вход в проверяющую систему]]
+** [[./2015s-statements.pdf][Условия задач]]
+** [[./tests-fake.zip][Тесты для третьей задачи]]
+** [[http://school.oplab.org/standings.html][Текущие результаты]]
 
 ** Регистрация
 
@@ -83,7 +86,6 @@ Java, Pascal, Python.
 + За нарушение правил олимпиады команда может быть дисквалифицирована.
 
 {{{end-block}}}
-
 
 ** Место очного проведения
 
